@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    height: 3000px;
+}
+
+.main {
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: aqua;
+}
+
+/* CSS banner */
+
+.banner {
+    width: 100%;
+}
+
+.banner #img1 {
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+
+.banner #img2 {
+    position: absolute;
+    right: 200px;
+    z-index: 1;
+}
+
+.banner #img3 {
+    position: absolute;
+    top: 300px;
+    right: 200px;
+    z-index: 1;
+}
+
+.banner #img4 {
+    position: absolute;
+    top: 300px;
+    right: 510px;
+    z-index: 1;
+}
+
+/* CSS menu */
+
+.menu {
+    display: flex;
+    background-color: #228B22;
+    margin-top: -3px;
+    width: 100%;
+}
+
+.menu > .content{
+    display: flex;
+    flex: 2;
+}
+
+.menu > .content .out{
+    margin-left: 18px;
+    line-height: 40px;
+    padding: 0 12px;
+    color: aliceblue;
+}
+
+.menu > .content .comment{
+    line-height: 40px;
+    padding: 0 12px;
+    color: aliceblue;
+}
+
+.menu > ul {
+    display: flex;
+    flex: 8;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.menu ul > li {
+    display: inline;
+    position: relative;
+    list-style: none;
+    height: 40px;
+}
+
+.menu ul li > a {
+   display: block;
+   line-height: 40px;
+   padding: 0 12px;
+   color: aliceblue;
+}
+
+.menu > ul > li > a:hover {
+    background-color: #3fed3f;
+}
+
+.menu .child {
+  display: none;
+  position: absolute;
+  min-width: 210px;
+  background-color: #3628ff;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.menu .child a {
+   display: block;
+   color: aliceblue;
+   padding: 0 8px;
+   line-height: 40px;
+}
+
+.menu .child a:hover {
+    background-color: #228B22;
+}
+
+.menu .down:hover .child {
+    display: block;
+}
+
+/* CSS xem */
+
+table, td, th {  
+    border: 1px solid rgb(0, 0, 0);
+    text-align: left;
+  }
+  
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+  
+th, td {
+    padding: 5px;
+}
+
+/* CSS thêm nhóm */
+
+.nhom {
+    width: 100%;
+    height: 220px;
+    margin-top: 30px;
+    background-color: blanchedalmond;
+}
+
+.nhom  p{
+    width: 100%;
+    background-color:orange;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+}
+
+.nhom .content {
+    display: flex;
+    padding: 20px;
+}
+
+.nhom > input[type="submit"] {
+    padding: 10px;
+    margin-top: -30px;
+    margin-left: 1185px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(173, 128, 61);
+}
+
+.nhom .content > .name {
+    flex: 5;
+    margin: 10px;
+}
+
+.nhom .content > .thutu {
+    flex: 5;
+    margin: 10px;
+}
+
+.nhom .content > .name input{
+    margin-top: 10px;
+}
+
+.nhom .content > .thutu input{
+    margin-top: 10px;
+}
+
+
+/* CSS thêm sp */
+
+.sp {
+    height: 850px;
+    width: 100%;
+    margin-top: 30px;
+    background-color: blanchedalmond;
+}
+
+.sp  p{
+    width: 100%;
+    background-color:orange;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.sp > .content {
+    padding: 10px;
+    width: 98%;
+    margin: 0 auto;
+}
+
+.sp > .content div{
+    padding: 10px;
+    width: 100%;
+}
+
+.sp > .content div > input, textarea{
+    margin-top: 10px;
+} 
+
+.sp > .content div > textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+.sp > input[type="submit"] {
+    padding: 10px;
+    margin-top: -30px;
+    margin-left: 1170px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(173, 128, 61);
+}
+
+
+
+
+
+
+
+
+
+

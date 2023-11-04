@@ -1,0 +1,239 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#main {
+    width: 900px;
+    height: 2000px;
+    margin: 0 auto;
+}
+
+
+/* CSS menu */
+
+#hleft {
+    float: left;
+    width: 215px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#login {
+    margin-left: 170px;
+}
+
+#menu {
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+
+#menu>ul {
+    display: flex;
+}
+
+#menu>ul li {
+    display: block;
+    position: relative;
+    height: 40px;
+}
+
+#menu>ul li a {
+    display: block;
+    line-height: 40px;
+    padding: 0 12px;
+}
+
+#menu>ul li a:hover {
+    background-color: #f3f3f3;
+}
+
+#drop {
+    display: none;
+    position: absolute;
+    width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+#down:hover #drop {
+    display: block;
+    background-color: aqua;
+}
+
+
+/* content */
+
+#content {
+    margin-top: 30px;
+}
+
+#line {
+    border-top: 1px solid #d5d5d5;
+}
+
+#noidung1 {
+    padding: 15px;
+    color: #3c763d;
+    background-color: #dff0d8;
+    margin: 20px 0;
+}
+
+
+/* container */
+
+#container {
+    display: flex;
+    margin-top: 50px;
+}
+
+
+/* right */
+
+#left {
+    flex: 8;
+    margin-right: 30px;
+}
+
+#right {
+    flex: 2;
+}
+
+.name1{
+    text-transform: uppercase;
+    font-weight: bold;    
+    color: white;
+    padding: 10px 15px;
+    background-color: #337ab7;
+}
+.name {
+    color: white;
+    padding: 10px 15px;
+    background-color: #337ab7;
+}
+
+
+#noidung2 {
+    padding: 15px;
+    color: white;
+    background-color: gray;
+}
+
+#theloai {
+    margin-top: 20px;
+    border: 1px solid #e8e8e8;
+}
+
+.title a {
+    display: block;
+    color: #337ab7;
+    padding: 5px 15px;
+}
+
+
+/* left */
+
+#left {
+    border: 1px solid #e8e8e8;
+}
+
+#left>.content {
+    margin-top: 20px;
+}
+
+.box:nth-child(4n+1) {
+    clear: left;
+}
+
+.box {
+    float: left;
+    max-width: 25%;
+    padding: 10px 15px;
+}
+
+.namesach {
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+/* sach */
+
+#page {
+    display: flex;
+}
+
+#anhsach {
+    flex: 6;
+    max-width: 35%;
+}
+
+#thongtin {
+    flex: 3;
+}
+
+#thongtin h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#thongtin p {
+    text-align: start;
+    margin-left: 60px;
+}
+
+#button {
+    margin-top: 40px;
+    padding: 15px;
+    width: 25%;
+    margin-left: 60px;
+    background-color: chartreuse;
+}
+
+#button a {
+    text-align: center;
+    margin-left: 5px;
+    color: white;
+}
+
+#button:hover {
+    background-color: darkorange;
+    color: white;
+}
+
+#button-rent {
+    margin-top: 40px;
+    padding: 15px;
+    width: 25%;
+    margin-left: 60px;
+    background-color: darkorange;
+}
+
+#button-rent a {
+    text-align: center;
+    margin-left: 5px;
+    color: white;
+}
+
+#button-rent:hover {
+    background-color: chartreuse;
+    color: white;
+}
+
+#gioithieu {
+    margin-top: 50px;
+}
+
+#btn-search {
+    padding: 4px 10px;
+    background: #337ab7;
+    color: white;
+    border: none;
+}
